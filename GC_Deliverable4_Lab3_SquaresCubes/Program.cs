@@ -35,7 +35,6 @@ namespace GC_Deliverable4_Lab3_SquaresCubes
                 else
                 {
                     Console.WriteLine("Invalid input. Press 'c' to continue, or any other key to exit program.");
-                    return;
                 }
             } while (Console.ReadLine().ToLower()[0] == 'c');
 
